@@ -1,0 +1,51 @@
+.places {
+    display: flex;
+    flex-direction: column;
+}
+
+.places__heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.places__title {
+    margin: 0;
+}
+
+.places__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.places__button {
+    padding: 10px 15px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius: 7px;
+    font-size: 15px;
+    color: black;
+    cursor: pointer;
+    transition: transform .1s ease-in-out, border .1s ease-in-out;
+}
+
+.places__button_active {
+    background-color: lightgray;
+}
+
+.places__button:hover {
+    transform: scale(1.03);
+    border: 1px solid rgb(0, 99, 5);
+
+}
+
+.places__list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 30px;
+    column-gap: 30px;
+}
