@@ -30,7 +30,6 @@ const Weather = () => {
     setIsLoading(true);
     setTimeout(() => {
       fetchWeatherData();
-      console.log(weatherInfo)
       setIsLoading(false);
     }, 1000);
   }

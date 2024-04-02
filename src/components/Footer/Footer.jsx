@@ -8,10 +8,6 @@ const Footer = () => {
         <span className="footer__text">ПГНИУ</span>
         <span className="footer__text">Web-картографирование, 2024</span>
         <span className="footer__text">Купчин М.С.</span>
-<<<<<<< HEAD
-=======
-        <a className='footer__tglink' href="https://t.me/mskupchin" target="_blank"><div className='footer__tgicon'></div>@mskupchin</a>
->>>>>>> 0f33f98 (added weather widget)
       </div>
       <div className="footer__logo-wrapper">
         <a href="http://gis.psu.ru/" target="_blank">
