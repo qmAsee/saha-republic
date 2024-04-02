@@ -7,6 +7,6 @@
   
 
 **Запуск:**
-cd saha-rep
-npm i
-npm run dev
+cd saha-rep  
+npm i  
+npm run dev  
