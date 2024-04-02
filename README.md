@@ -1,8 +1,12 @@
-# React + Vite
+## Сайт о республике Саха в рамках университетской дисциплины web-картографирование
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Реализовано**:
+- подгрузка данных из погодного API http://api.weatherapi.com, настроено отображение виджета с погодой
+- фейковый запрос данных о кафе и музеях Якутска, переключение между категориями и отображение мест
 
-Currently, two official plugins are available:
+  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Запуск:**
+cd saha-rep
+npm i
+npm run dev
