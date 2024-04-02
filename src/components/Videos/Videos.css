@@ -1,0 +1,16 @@
+.videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: calc(100% - (80px * 2));
+    margin: 0 auto 100px auto;
+}
+
+.videos__title {
+    margin: 0 0 40px 0;
+}
+
+.videos__wrapper {
+    display: flex;
+    gap: 50px;
+}

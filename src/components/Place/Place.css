@@ -1,0 +1,49 @@
+.yakutsk__place-wrapper {
+    display: flex;
+    gap: 15px;
+    border: 1px solid grey;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 560px;
+    background-color: aliceblue;
+}
+
+.yakutsk__place-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.yakutsk__img-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+}
+
+.yakutsk__place-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.yakutsk__place-title {
+    margin: 0 0 4px 0;
+}
+
+.yakutsk__place-placedescription {
+    margin: 0 0 10px 0;
+    width: 300px;
+    font-size: 13px;
+}
+
+.yakutsk__place-schedule {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.yakutsk__place-address {
+    width: 210px;
+    font-size: 12px;
+    font-weight: bold;
+}

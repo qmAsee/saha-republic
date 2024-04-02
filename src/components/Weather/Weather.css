@@ -1,0 +1,117 @@
+.weather {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - (80px * 2));
+    height: 339px;
+    align-items: center;
+    margin:0 auto 100px auto;
+}
+
+.weather__title {
+    font-size: 25px;
+    margin: 0 auto;
+}
+
+.weather__time {
+    font-size: 15px;
+    margin-bottom: 30px;
+    color: rgb(138, 138, 138)
+}
+
+.weather__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.weather__content {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.weather__current {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.weather__sky {
+    width: 45px;
+    height: 45px;
+}
+
+.weather__temp {
+    font-size: 40px;
+}
+
+.weather__info-s {
+    display: flex;
+    flex-direction: column;
+}
+
+.weather__feelslike {
+    color: rgb(138, 138, 138)
+}
+
+.weather__additional {
+    display: flex;
+    gap: 30px;
+}
+
+.weather__param {
+    display: flex;
+    gap: 3px;
+}
+
+.weather__params-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.weather__params-text {
+    font-size: 15px;
+}
+
+.weather__update {
+    width: 150px;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(221, 221, 221);
+    cursor: pointer;
+    transition: background-color .1s ease-in-out
+}
+
+.weather__update:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.loader {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    position: relative;
+    color: #6ebeff;
+    box-sizing: border-box;
+    padding: 0;
+    animation: animloader 1s linear infinite alternate;
+  }
+  
+  @keyframes animloader {
+    0% {
+      box-shadow: -38px -6px, -14px 6px,  14px -6px;
+    }
+    33% {
+      box-shadow: -38px 6px, -14px -6px,  14px 6px;
+    }
+    66% {
+      box-shadow: -38px -6px, -14px 6px, 14px -6px;
+    }
+    100% {
+      box-shadow: -38px 6px, -14px -6px, 14px 6px;
+    }
+  }
