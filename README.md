@@ -6,7 +6,7 @@
 
   
 
-**Запуск:**
+**Запуск:**  
 cd saha-rep  
 npm i  
 npm run dev  
