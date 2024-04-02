@@ -16,6 +16,10 @@ const PlaceList = () => {
           : placeType === "Окультуриться"
           ? setPlaces(cultures)
           : null;
+<<<<<<< HEAD
+=======
+          
+>>>>>>> 0f33f98 (added weather widget)
           handleChangePlaceType(placeType)
       }
     );
@@ -27,7 +31,11 @@ const PlaceList = () => {
   }
 
   return (
+<<<<<<< HEAD
     <section className="places">
+=======
+    <section id="yakutsk" className="places">
+>>>>>>> 0f33f98 (added weather widget)
       <div className="places__heading">
         <h3 className="places__title">Якутск</h3>
         <span className="places__subtitle">Куда сходить? Чем заняться?</span>
@@ -59,10 +67,13 @@ const PlaceList = () => {
           ? places.map((place) => {
               return <Place key={place.title} place={place} />;
             })
+<<<<<<< HEAD
           : placeType === "Оттянуться"
           ? places.map((place) => {
               return <Place key={place.title} place={place} />;
             })
+=======
+>>>>>>> 0f33f98 (added weather widget)
           : null}
       </ul>
     </section>

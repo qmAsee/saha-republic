@@ -10,6 +10,13 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 70px;
+<<<<<<< HEAD
+=======
+    background-color: rgb(221, 221, 255);
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+>>>>>>> 0f33f98 (added weather widget)
 }
 
 .info__map {
@@ -30,7 +37,12 @@
 
 .info__desc-wrapper {
     display: flex;
+<<<<<<< HEAD
     gap: 20px;
+=======
+    align-items: center;
+    gap: 30px;
+>>>>>>> 0f33f98 (added weather widget)
 }
 
 .info__desc {
@@ -75,6 +87,15 @@
 .info__coordinates {
     font-size: 25px;
     font-weight: bold;
+<<<<<<< HEAD
+=======
+    color: black;
+    transition: color .1s ease-in-out
+}
+
+.info__coordinates:hover {
+    color: rgb(82, 82, 82)
+>>>>>>> 0f33f98 (added weather widget)
 }
 
 .info__fact-link {

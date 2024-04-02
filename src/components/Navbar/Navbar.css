@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 40px;
+    width: calc(100% - (250px*2));
+    margin: 0 auto 70px auto;
+    padding: 0;
+}
+
+.navbar__element {
+    background-color: rgb(221, 221, 221);
+    padding: 10px 13px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color .1s ease-in-out
+}
+
+.navbar__element:hover {
+    background-color: rgb(235, 235, 235);
+}

@@ -1,5 +1,9 @@
 // import React from "react";
+<<<<<<< HEAD
 import './Info.css'
+=======
+import "./Info.css";
+>>>>>>> 0f33f98 (added weather widget)
 
 const Info = () => {
   return (
@@ -23,7 +27,13 @@ const Info = () => {
         </article>
       </div>
 
+<<<<<<< HEAD
       <h2 className="info__title">Природные достопримечательности</h2>
+=======
+      <h2 id="attractions" className="info__title">
+        Природные достопримечательности
+      </h2>
+>>>>>>> 0f33f98 (added weather widget)
       <ul className="info__factlist">
         <li className="info__fact">
           <div className="info__fact-wrapper">
@@ -51,6 +61,7 @@ const Info = () => {
               востоке региона в Оймяконском районе, в одном из самых холодных
               мест на планете. Зимой температура воздуха может достигать –60 С.
             </p>
+<<<<<<< HEAD
             <span className="info__coordinates">
               62°30′17″ с. ш. 143°36′03″ в. д.
             </span>
@@ -64,6 +75,26 @@ const Info = () => {
             именем – это лишь производное от эвенкийского слова «Елю-Эне»,
             которое переводится как «Большая Река»).
           </p>
+=======
+            <a href="https://clck.ru/39jiLt" target="_blank" className="info__coordinates">
+              62°30′17″ с. ш. 143°36′03″ в. д.
+            </a>
+          </div>
+        </li>
+        <li className="info__fact">
+          <div className="info__textwrapper">
+            <p className="info__fact-text">
+              Самый узнаваемый символ Республики Саха – природный парк «Ленские
+              столбы» возвышается над берегом реки Лены. (Кстати, привычное
+              русскоговорящим название «Лена» не имеет ничего общего с женским
+              именем – это лишь производное от эвенкийского слова «Елю-Эне»,
+              которое переводится как «Большая Река»).
+            </p>
+            <a href="https://clck.ru/39jiXK" target="_blank" className="info__coordinates">
+              61°06′25″ с. ш. 127°21′42″ в. д
+            </a>
+          </div>
+>>>>>>> 0f33f98 (added weather widget)
           <div className="info__fact-wrapper">
             <h3 className="info__fact-title">Ленские столбы</h3>
             <a
@@ -102,6 +133,7 @@ const Info = () => {
               />
             </a>
           </div>
+<<<<<<< HEAD
           <p className="info__fact-text">
             Оймяконская впадина в Якутии – одно из наиболее суровых мест на
             планете, претендующее на звание самого холодного на территории
@@ -109,6 +141,20 @@ const Info = () => {
             -60˚С и ниже, а летом она может подняться до +30°С. Таким образом,
             годовая амплитуда температур составляет 100˚С, а иногда и выше!
           </p>
+=======
+          <div className="info__textwrapper">
+            <p className="info__fact-text">
+              Оймяконская впадина в Якутии – одно из наиболее суровых мест на
+              планете, претендующее на звание самого холодного на территории
+              северного полушария. Температура в зимнее время здесь достигает
+              -60˚С и ниже, а летом она может подняться до +30°С. Таким образом,
+              годовая амплитуда температур составляет 100˚С, а иногда и выше!
+            </p>
+            <a href="https://clck.ru/39jikz" target="_blank" className="info__coordinates">
+              63°27′46″ с. ш. 142°47′24″ в. д.
+            </a>
+          </div>
+>>>>>>> 0f33f98 (added weather widget)
         </li>
         <li className="info__fact"></li>
       </ul>

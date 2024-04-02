@@ -3,7 +3,11 @@ import './Header.css'
 
 const Header = () => {
   return (
+<<<<<<< HEAD
     <header className="header">
+=======
+    <header className="header" id="header">
+>>>>>>> 0f33f98 (added weather widget)
       <div className="header__background">
         <div className="header__textblock">
           <h1 className="header__title">Республика Саха</h1>
