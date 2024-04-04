@@ -57,14 +57,14 @@ const Weather = () => {
                     </span>
                     <img
                       src={
-                        weatherInfo.current.condition.text === "Clear"
+                        weatherInfo.current.condition.text === "Sunny"
                           ? sunny
                           : weatherInfo.current.condition.text ===
                             "Partly cloudy"
                           ? partlyCloudy
                           : weatherInfo.current.condition.text === "Cloudy"
                           ? cloudy
-                          : null
+                          : cloudy
                       }
                       alt="погода"
                       className="weather__sky"
