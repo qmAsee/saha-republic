@@ -11,8 +11,6 @@ import Weather from "./components/Weather/Weather";
 
 
 function App() {
-  // const [count, setCount] = useState(0);
-
   return (
     <>
       <Header />
